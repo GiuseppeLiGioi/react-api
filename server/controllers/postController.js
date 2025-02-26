@@ -5,7 +5,7 @@ function index(req, res) {
     //variabile clone dell'array originale
     let filteredPosts = posts;
 
-    res.pippo();
+    
 
     //localhost:3000/api/posts?tags=Dolci
     //req.query.tags => valore della chiave tags nella uri
