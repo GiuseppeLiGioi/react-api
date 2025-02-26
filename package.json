@@ -1,0 +1,25 @@
+{
+  "name": "react-api-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js" ,
+    "watch": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiuseppeLiGioi/react-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiuseppeLiGioi/react-api/issues"
+  },
+  "homepage": "https://github.com/GiuseppeLiGioi/react-api#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
