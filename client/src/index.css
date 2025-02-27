@@ -9,28 +9,41 @@ html{
 }
 .table {
   width: 100%;
-  border-collapse: collapse;
   margin: 20px 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px;
-  color: white; /* Testo scuro */
+  color: black;
 }
 
 .table-header {
-  background-color: blue; /* Blu vivace */
-  border-bottom: 2px solid darkblue; /* Blu leggermente più scuro per il bordo */
+  background-color: blue;
+  border-bottom: 2px solid darkblue;
 }
 
 .table-header-cell {
   padding: 12px 15px;
   text-align: center;
-  color: black; /* Testo bianco nell'intestazione */
+  color: white; 
   font-weight: bold;
 }
 
-
 .table-cell {
   padding: 12px 15px;
-  border-bottom: 1px solid gray; 
-  color: black;/* Bordo sottile e chiaro */
+  border-bottom: 1px solid gray;
+  color: black; 
 }
+
+.btn{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-color: red;
+  margin-left: 40px;
+}
+.btn_form{
+  background-color: red;
+  color: yellow;
+  padding: 10px;
+  border-color: gold;
+  margin-left: 40px;
+}
+
