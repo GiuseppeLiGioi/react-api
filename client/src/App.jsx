@@ -18,24 +18,27 @@ return (
   <table className="table">
     <thead>
       <tr className="table-header">
-        {posts.map((post) => (
-          <th key={post.id} className="dynamic-table-header-cell">
-            {post.title}
-          </th>
-        ))}
+        <th className="table-header-cell">id</th>
+        <th className="table-header-cell">title</th>
+        <th className="table-header-cell">image</th>
       </tr>
     </thead>
     <tbody className="table-body">
-      {posts.map((post) => (
-        <tr key={post.id} className="table-row">
-          {posts.map((post) => (
-            <td key={post.id} className="table-cell">{post.title}</td>
-          ))}
-        </tr>
-      ))}
+      {posts.map((elem) => {
+        return (
+          <tr key={elem.id}>
+            <td className="table-cell">{elem.id}</td>
+            <td className="table-cell">{elem.title}</td>
+            <td className="table-cell">
+              <img src={elem.image} alt={elem.title} width="100" />
+            </td>
+          </tr>
+        );
+      })}
     </tbody>
   </table>
 );
+
 }
 
 export default App
